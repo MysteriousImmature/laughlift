@@ -1,0 +1,18 @@
+body {
+    align-items: center;
+    width: 200px;
+    height: 100px;
+  }
+  
+  button {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
