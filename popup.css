@@ -1,18 +1,62 @@
+/* Apply general body styles */
 body {
-    align-items: center;
-    width: 200px;
-    height: 100px;
-  }
-  
-  button {
-    align-items: center;
-    display: block;
-    margin: 0 auto;
-    background-color: red;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* Center container */
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #f5576c;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+  display: inline-block;
+  background-color: #f5576c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4464a;
+}
+
+/* Meme container styles */
+#memeContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#memeImage {
+  max-width: 100%;
+  border-radius: 8px;
+  display: none;
+}
